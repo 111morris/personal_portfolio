@@ -2,12 +2,14 @@
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Head from 'next/head';
+import About from './components/About';
 
 export default function Home() {
  return (
   <>
    <Navbar />
-   <Header/>
+   <Header />
+   <About/>
   </>
  );
 }
