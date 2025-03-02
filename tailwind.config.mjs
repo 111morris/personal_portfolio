@@ -19,7 +19,10 @@ export default {
    boxShadow: {
     'black': '2px 2px 8px #000',
     'white': '2px 2px 8px #fff',
-   }
+   },
+   gridTemplateColumns: {
+    'auto':'repeat(auto-fill, minmax(250px, 1fr))',
+   },
   },
  },
  plugins: [],
