@@ -4,7 +4,7 @@ import { assets } from '@/assets/assets'
 
 const Footer = ({isDarkMode}) => {
  return (
-  <div className='w-full bg-gray-800 text-white dark:bg-darkHover/30 py-10 mt-20'>
+  <div className='w-full bg-black/80 text-white dark:bg-darkHover/30 py-10 mt-20'>
    <div className='text-center' >
     <span className='mulandi w-36 mx-auto mb-2'>Mulandi</span>
     <span className='red-dot'>.</span>
