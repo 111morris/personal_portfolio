@@ -14,7 +14,7 @@ const Header = () => {
    <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo' >
     Fullstuck web developer based in Kenya.
    </h1>
-   <p className='max-w-2xl mx-auto font-Ovo' >I'm a fullstack developer, with 1yaer of experience in multiple programming languages</p>
+     <p className='max-w-2xl mx-auto font-Ovo text-gray-600 dark:text-white/80' >I'm a fullstack developer, with 1yaer of experience in multiple programming languages</p>
 
    <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
     <a href="#contact"

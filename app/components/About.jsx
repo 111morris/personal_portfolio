@@ -13,7 +13,7 @@ const About = ({isDarkMode}) => {
      <Image src={assets.user_image} alt='user' className='w-full rounded-3xl' />
     </div>
     <div className='flex-1' >
-     <p className='mb-10 max-w-2xl font-Ovo'>
+     <p className='mb-10 max-w-2xl font-Ovo text-gray-600 dark:text-white/80' >
       I am an experienced Fullstuck Developer with one year of professional expertise in the field. Throughout my career, I have had the privilege of collaborationg with prestigious organizations, contributing to their success and growth.
      </p>
 

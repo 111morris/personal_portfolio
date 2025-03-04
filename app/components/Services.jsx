@@ -12,8 +12,8 @@ const Services = () => {
 
    <h4 className='text-center mb-2 text-lg font-Ovo' >What i offer</h4>
    <h2 className='text-center text-5xl font-Ovo' >My Services</h2>
-   <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo' >
-    I ama fullstuck developer from Nairobi, Kenya with 1 year of professional experience in multiple companies
+   <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-gray-600 dark:text-white/80' >
+    I am fullstuck developer from Nairobi, Kenya with 1 year of professional experience in multiple companies
     I develop responsive websites and web applications using the latest technologies and frameworks
    </p>
    <div className='grid grid-cols-auto gap-6 my-10' >
