@@ -117,5 +117,5 @@ export const workData = [
   title: 'A number conversion system',
   description: 'converts different number systems',
   bgImage: '/number-systems-project.png',
- },
+ }
 ]

@@ -40,7 +40,7 @@ const Work = ({isDarkMode}) => {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 0.6, delay: 0.9 }}
     
-    className='grid grid-cols-auto my-10 gap-5 dark:text-black' >
+    className='grid grid-cols-400 my-10 gap-5 dark:text-black' >
     {workData.map((project, index) => (
      <motion.div
       whileHover={{ opacity: 1.05 }}
@@ -67,7 +67,7 @@ const Work = ({isDarkMode}) => {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 0.5, delay: 1.1 }}
 
-    href="#" className='font-Ovo flex items-center justify-center gap-2 text-sm mt-5 w-max text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lighHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover' > 
+    href="https://github.com/111morris" target="_blank" className='font-Ovo flex items-center justify-center gap-2 text-sm mt-5 w-max text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lighHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover' > 
     Show more
     <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='right arrow' className='w-4' />
    </motion.a>
