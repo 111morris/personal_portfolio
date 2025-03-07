@@ -104,12 +104,12 @@ export const workData = [
   bgImage: '/digital-clock-project.png',
  },
  {
-  title: 'A blog page',
+  title: 'Build a blog page',
   description: 'In progress. A blog website',
   bgImage: '/animation-blog-project.png',
  },
  {
-  title: 'A website for an organization',
+  title: 'Build a website for an organization',
   description: 'In progress. An organization website',
   bgImage: '/animation-website-project.png',
  },
