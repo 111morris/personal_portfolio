@@ -21,7 +21,7 @@ const Contact = () => {
   const data = await response.json();
 
   if (data.success) {
-   setResult("Form Submitted Successfully");
+   setResult("Message Submitted Successfully. Thank you!");
    event.target.reset();
   } else {
    console.log("Error", data);
@@ -93,7 +93,7 @@ const Contact = () => {
      name='message' className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90' rows={6} placeholder='Enter your message' required></motion.textarea>
     <motion.button
      whileHover={{ scale: 1.05 }}
-     transition={{ duration: 0.3}}
+     transition={{ duration: 0.3 }}
 
      type='submit' className='flex items-center justify-center gap-2 bg-black/80 text-white text-sm mt-5 w-max border-[0.5px] border-gray-700 rounded-full py-3 px-8 mx-auto my-20 hover:bg-black hover:text-white duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover' >
      Send message <Image src={assets.right_arrow_white} alt='' className='w-4' />
