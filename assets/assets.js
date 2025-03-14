@@ -102,24 +102,29 @@ export const workData = [
   title: 'A digital clock',
   description: 'A lightweight digital clock displaying the current time synced with the device\'s local time',
   bgImage: '/digital-clock-project.png',
+  link: '',
  },
  {
   title: 'Build a blog page',
   description: 'In progress. A blog website',
   bgImage: '/animation-blog-project.png',
+  link: 'https://111morris.github.io/animation/blog/blog.html',
  },
  {
   title: 'Build a website for an organization',
   description: 'In progress. An organization website',
   bgImage: '/animation-website-project.png',
+  link: 'https://111morris.github.io/animation/',
  },
  {
   title: 'A number conversion system',
   description: 'converts different number systems',
   bgImage: '/number-systems-project.png',
+  link: 'https://111morris.github.io/number-system-updated/',
  }, {
   title: 'Build a quize game app',
   description: 'A quiz game app',
   bgImage: '/quiz-game-project.png',
+  link: 'https://111morris.github.io/quiz-game/',
  }
 ]
