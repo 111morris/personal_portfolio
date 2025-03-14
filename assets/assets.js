@@ -117,5 +117,9 @@ export const workData = [
   title: 'A number conversion system',
   description: 'converts different number systems',
   bgImage: '/number-systems-project.png',
+ }, {
+  title: 'Build a quize game app',
+  description: 'A quiz game app',
+  bgImage: '/quiz-game-project.png',
  }
 ]
