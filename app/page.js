@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import Testimonials from './components/Testimonials'
 
 export default function Home() {
 
@@ -37,10 +38,13 @@ export default function Home() {
    <Navbar isDarkMode={isDarkMode} setIsDarkMode={setIsDarkMode} />
    <Header isDarkMode={isDarkMode} />
    <About isDarkMode={isDarkMode} />
+
    <Services isDarkMode={isDarkMode} />
+   <Testimonials isDarkMode={isDarkMode}/>
    <Work isDarkMode={isDarkMode} />
    <Contact isDarkMode={isDarkMode} />
    <Footer isDarkMode={isDarkMode} />
+   
   </>
  );
 }
