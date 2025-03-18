@@ -124,13 +124,12 @@ export const testimonials = [
   name: 'John Doe',
   title: 'CEO',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-  socialIconsThis: [socialIcons.github, socialIcons.facebook, socialIcons.instagram],  
   link: {
-   facebook: 'https://facebook.com/johndoe',
-   github: 'https://github.com/johndoe',
-   instagram: '',
-  }
-  
+   facebook: 'https://facebook.com/',
+   github: 'https://github.com/',
+   instagram: 'https://instagram.com/',
+  },
+  socialIconsThis: [socialIcons.facebook, socialIcons.github, socialIcons.instagram],  
  },
 ]
 

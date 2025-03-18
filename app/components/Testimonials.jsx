@@ -17,14 +17,27 @@ const TestimonialCard = ({ testimonial }) => {
     <p className="text-base leading-relaxed text-gray-500 font-normal">{testimonial.description}</p>
     <div className="flex justify-start space-x-2">
 
-     {testimonial.socialIconsThis.map((socialIcon, index) => {
-      return (
-       <Link key={index + 1} href='' className="text-gray-500 hover:text-gray-600" target="_blank" rel="noreferrer">
-        <img src={`/icons/${socialIcon}.svg`} alt={socialIcon} />
-       </Link>
-      )
-     })}
+     {/* social icons goes in here */}
 
+     {
+      testimonial.socialIconsThis.map((socialIcon, index) => {
+       const socialMedia = Object.keys(testimonial.link)[index];
+       const link = testimonial.link[socialMedia];
+       return (
+        
+        <Link key={index}
+         href={link}
+         className="text-gray-500 hover:text-gray-600" target="_blank"
+         rel="noreferrer">
+         <span>{socialIcon}</span>
+        </Link>
+       )
+      })
+     }
+
+     {/* <Link key={index + 1} href='' className="text-gray-500 hover:text-gray-600" target="_blank" rel="noreferrer">
+      <img src={`/icons/${socialIcon}.svg`} alt={socialIcon} />
+     </Link> */}
 
     </div>
    </div>
