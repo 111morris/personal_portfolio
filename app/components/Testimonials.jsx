@@ -72,10 +72,10 @@ const Testimonials = () => {
 
    <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-4 py-12">
     <div className="text-center pb-12">
-     <h2 className="text-base font-bold text-indigo-600">
+     <h2 className="text-base font-bold text-indigo-600 dark:text-teal-200/80">
       Real feedback from people who've experienced and seen my work.
      </h2>
-     <h1 className="font-Ovo text-3xl md:text-4xl lg:text-5xl font-heading text-gray-900">
+     <h1 className="font-Ovo text-3xl md:text-4xl lg:text-5xl font-heading text-gray-900 dark:text-white/80">
       Read reviews people about me.
      </h1>
     </div>
