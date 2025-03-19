@@ -37,6 +37,14 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import working from './working.png';
 import stanImage from './stan.png';
+import default_image_icon from './default_image_icon.png';
+import default_image_icon_2 from './default_image_icon_2.png';
+import default_image_icon_woman from './default_image_icon_woman.png'
+import default_image_icon_3 from './default_image_icon_3.png'
+import default_image_icon_3_dark from './default_image_icon_3_dark.png'
+
+
+// for more icon visit https://iconduck.com/
 
 export const assets = {
  user_image,
@@ -77,7 +85,12 @@ export const assets = {
  right_arrow_bold,
  right_arrow_bold_dark,
  working,
- stanImage
+ stanImage,
+ default_image_icon,
+ default_image_icon_2,
+ default_image_icon_woman,
+ default_image_icon_3,
+ default_image_icon_3_dark,
 };
 
 export const infoList = [
@@ -110,11 +123,11 @@ const socialIcons = {
    <path d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.798 8.207 11.387.6.111.793-.261.793-.581 0-.286-.011-1.043-.016-2.055-3.338.725-4.04-1.61-4.04-1.61-.544-1.374-1.327-1.743-1.327-1.743-1.087-.743.082-.728.082-.728 1.204.086 1.836 1.236 1.836 1.236 1.068 1.825 2.804 1.298 3.488.996.105-.773.417-1.298.76-1.598-2.666-.303-5.467-1.333-5.467-5.928 0-1.311.468-2.383 1.238-3.221-.124-.303-.536-.81-.052-1.684 0 0 1.007-.324 3.283 1.236 2.687-.749 5.229-.746 7.895 0 2.274-1.56 3.283-1.236 3.283-1.236.484.874.073 1.381-.052 1.684.77.838 1.238 1.91 1.238 3.221 0 4.595-2.801 5.625-5.467 5.928.449.39.851.872.851 1.746 0 1.322-.013 2.394-.013 2.716 0 .323.189.696.796.577C20.563 21.798 24 17.303 24 12c0-6.627-5.373-12-12-12z"></path>
   </svg>
  ),
-/*  instagram: (
-  <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
-   <path d="M12 2.163c3.162 0 3.536.012 4.785.069 1.348.061 2.506.317 3.464 1.276.957.96 1.215 2.118 1.276 3.464.057 1.249.069 1.623.069 4.785s-.012 3.536-.069 4.785c-.061 1.348-.317 2.506-1.276 3.464-.96.959-2.116 1.215-3.464 1.276-1.249.057-1.623.069-4.785.069s-3.536-.012-4.785-.069c-1.348-.061-2.506-.317-3.464-1.276-.959-.96-1.215-2.116-1.276-3.464-.057-1.249-.069-1.623-.069-4.785s.012-3.536.069-4.785c.061-1.348.317-2.506 1.276-3.464.96-.959 2.116-1.215 3.464-1.276 1.249-.057 1.623-.069 4.785-.069zM12 0c-3.188 0-3.578.013-4.832.071-1.271.059-2.392.313-3.274 1.195-.882.882-1.136 2.003-1.195 3.274-.057 1.254-.071 1.644-.071 4.832 0 3.188.013 3.578.071 4.832.059 1.271.313 2.392 1.195 3.274.882.882 2.003 1.136 3.274 1.195 1.254.057 1.644.071 4.832.071 3.188 0 3.578-.013 3.578-.071 4.832-.059 1.271-.313 2.392-1.195 3.274-.882.882-2.003 1.136-3.274 1.195-1.254.057-1.644.071-4.832.071zm0 6.878a5.122 5.122 0 1 0 0 10.244 5.122 5.122 0 0 0 0-10.244zm0 8.878a3.756 3.756 0 1 1 0-7.512 3.756 3.756 0 0 1 0 7.512zm6.22-9.591c.547 0 .989-.444.989-.989 0-.546-.444-.988-.989-.988-.546 0-.989.444-.989.988 0 .545.444.989.989.989z"></path>
-  </svg>
- ), */
+ /*  instagram: (
+   <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
+    <path d="M12 2.163c3.162 0 3.536.012 4.785.069 1.348.061 2.506.317 3.464 1.276.957.96 1.215 2.118 1.276 3.464.057 1.249.069 1.623.069 4.785s-.012 3.536-.069 4.785c-.061 1.348-.317 2.506-1.276 3.464-.96.959-2.116 1.215-3.464 1.276-1.249.057-1.623.069-4.785.069s-3.536-.012-4.785-.069c-1.348-.061-2.506-.317-3.464-1.276-.959-.96-1.215-2.116-1.276-3.464-.057-1.249-.069-1.623-.069-4.785s.012-3.536.069-4.785c.061-1.348.317-2.506 1.276-3.464.96-.959 2.116-1.215 3.464-1.276 1.249-.057 1.623-.069 4.785-.069zM12 0c-3.188 0-3.578.013-4.832.071-1.271.059-2.392.313-3.274 1.195-.882.882-1.136 2.003-1.195 3.274-.057 1.254-.071 1.644-.071 4.832 0 3.188.013 3.578.071 4.832.059 1.271.313 2.392 1.195 3.274.882.882 2.003 1.136 3.274 1.195 1.254.057 1.644.071 4.832.071 3.188 0 3.578-.013 3.578-.071 4.832-.059 1.271-.313 2.392-1.195 3.274-.882.882-2.003 1.136-3.274 1.195-1.254.057-1.644.071-4.832.071zm0 6.878a5.122 5.122 0 1 0 0 10.244 5.122 5.122 0 0 0 0-10.244zm0 8.878a3.756 3.756 0 1 1 0-7.512 3.756 3.756 0 0 1 0 7.512zm6.22-9.591c.547 0 .989-.444.989-.989 0-.546-.444-.988-.989-.988-.546 0-.989.444-.989.988 0 .545.444.989.989.989z"></path>
+   </svg>
+  ), */
 
 
 
@@ -134,7 +147,22 @@ const socialIcons = {
 export const testimonials = [
  {
   icon: assets.stanImage,
+  iconDark: assets.arrow_icon,
   name: ' Stanslaus Wekesa',
+  title: 'student',
+  description: 'Morris Mulandi is a great developer, I have worked with him on a project and he is very good at what he does. I would recommend him to anyone looking for a developer.',
+  link: {
+   facebook: 'https://facebook.com/',
+   github: 'https://github.com/',
+   instagram: 'https://instagram.com/',
+   internet: 'https://google.com/',
+  },
+  socialIconsThis: [socialIcons.facebook, socialIcons.github, socialIcons.instagram, socialIcons.internet],
+ },
+ {
+  icon: assets.default_image_icon_3,
+  iconDark: assets.default_image_icon_3_dark,
+  name: 'Default user',
   title: 'student',
   description: 'Morris Mulandi is a great developer, I have worked with him on a project and he is very good at what he does. I would recommend him to anyone looking for a developer.',
   link: {
@@ -147,7 +175,6 @@ export const testimonials = [
  },
 
 ]
-
 
 
 

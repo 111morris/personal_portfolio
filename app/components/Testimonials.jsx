@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import { motion } from "motion/react"
 import { assets } from '@/assets/assets'
 import { testimonials } from '@/assets/assets'
@@ -6,16 +7,18 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 
-const TestimonialCard = ({ testimonial }) => {
+const TestimonialCard = ({ testimonial, isDarkMode, setIsDarkMode }) => {
  return (
-  <div className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
+  <div className="w-full border border-x-white bg-white dark:bg-inherit dark:border rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
    <div className="w-full md:w-2/5 h-80">
-    <Image className="object-center object-cover w-full h-full" src={assets.stanImage} alt={testimonial.name} />
+
+    <Image className="object-center object-cover w-full h-full"
+     src={testimonial.icon} alt={testimonial.name} />
    </div>
    <div className="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
-    <p className="text-xl text-gray-700 font-bold">{testimonial.name}</p>
+    <p className="text-xl text-gray-700 font-bold dark:text-white/80">{testimonial.name}</p>
     <p className="text-base text-gray-400 font-normal">{testimonial.title}</p>
-    <p className="text-base leading-relaxed text-gray-500 font-normal">{testimonial.description}</p>
+    <p className="text-base leading-relaxed text-gray-500 font-normal dark:text-white/85">{testimonial.description}</p>
     <div className="flex justify-start space-x-2">
 
      {/* social icons goes in here */}
@@ -25,7 +28,7 @@ const TestimonialCard = ({ testimonial }) => {
        const socialMedia = Object.keys(testimonial.link)[index];
        const link = testimonial.link[socialMedia];
        return (
-        
+
         <Link key={index}
          href={link}
          className="text-gray-500 hover:text-gray-600" target="_blank"
