@@ -1,15 +1,16 @@
 import React from 'react'
 import { motion } from "motion/react"
 import { assets } from '@/assets/assets'
-// import {testimonial} from '@/assets/testimonial'
 import { testimonials } from '@/assets/assets'
 import Link from 'next/link'
+import Image from 'next/image'
+
 
 const TestimonialCard = ({ testimonial }) => {
  return (
   <div className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
    <div className="w-full md:w-2/5 h-80">
-    <img className="object-center object-cover w-full h-full" src={testimonial.icon} alt={testimonial.name} />
+    <Image className="object-center object-cover w-full h-full" src={assets.stanImage} alt={testimonial.name} />
    </div>
    <div className="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
     <p className="text-xl text-gray-700 font-bold">{testimonial.name}</p>
@@ -88,7 +89,6 @@ const Testimonials = () => {
      {testimonials.map((testimonial, index) => (
       <TestimonialCard key={index} testimonial={testimonial} />
      ))}
-
      {/* <div className="w-full bg-white rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
       <div className="w-full md:w-2/5 h-80">
        <img className="object-center object-cover w-full h-full" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" />
