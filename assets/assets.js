@@ -134,9 +134,9 @@ const socialIcons = {
 export const testimonials = [
  {
   icon: assets.stanImage,
-  name: 'John Doe',
-  title: 'CEO',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+  name: ' Stanslaus Wekesa',
+  title: 'student',
+  description: 'Morris Mulandi is a great developer, I have worked with him on a project and he is very good at what he does. I would recommend him to anyone looking for a developer.',
   link: {
    facebook: 'https://facebook.com/',
    github: 'https://github.com/',
@@ -144,7 +144,8 @@ export const testimonials = [
    internet: 'https://google.com/',
   },
   socialIconsThis: [socialIcons.facebook, socialIcons.github, socialIcons.instagram, socialIcons.internet],
- }
+ },
+
 ]
 
 
