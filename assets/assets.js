@@ -162,9 +162,23 @@ export const testimonials = [
  {
   icon: assets.default_image_icon_3,
   iconDark: assets.default_image_icon_3_dark,
-  name: 'Default user',
+  name: 'Simon Chege',
   title: 'student',
-  description: 'Morris Mulandi is a great developer, I have worked with him on a project and he is very good at what he does. I would recommend him to anyone looking for a developer.',
+  description: 'Morris Mulandi is an exceptional developer. I had the pleasure of collaborating with him on a project, and his expertise and problem-solving skills were evident throughout. He consistently delivered high-quality work and was an asset to the team. I highly recommend him to anyone seeking a talented and reliable developer.',
+  link: {
+   facebook: 'https://facebook.com/',
+   github: 'https://github.com/',
+   instagram: 'https://instagram.com/',
+   internet: 'https://google.com/',
+  },
+  socialIconsThis: [socialIcons.facebook, socialIcons.github, socialIcons.instagram, socialIcons.internet],
+ },
+ {
+  icon: assets.default_image_icon_3,
+  iconDark: assets.default_image_icon_3_dark,
+  name: 'Mutuma George',
+  title: 'student',
+  description: 'Working with Morris Mulandi was a fantastic experience. His technical abilities and attention to detail are impressive, and he approaches every challenge with a solution-oriented mindset. Not only does he deliver excellent results, but his communication and collaboration skills also make him a valuable team player. I’d wholeheartedly recommend him to anyone in need of a skilled and dependable developer.',
   link: {
    facebook: 'https://facebook.com/',
    github: 'https://github.com/',

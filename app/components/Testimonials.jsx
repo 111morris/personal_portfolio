@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 const TestimonialCard = ({ testimonial, isDarkMode, setIsDarkMode }) => {
  return (
-  <div className="w-full border border-x-white bg-white dark:bg-inherit dark:border rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
+  <div className="w-full border border-x-gray-400 bg-white dark:bg-inherit dark:border-gray-600 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
    <div className="w-full md:w-2/5 h-80">
 
     <Image className="object-center object-cover w-full h-full"
