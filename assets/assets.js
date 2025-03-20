@@ -42,6 +42,17 @@ import default_image_icon_2 from './default_image_icon_2.png';
 import default_image_icon_woman from './default_image_icon_woman.png'
 import default_image_icon_3 from './default_image_icon_3.png'
 import default_image_icon_3_dark from './default_image_icon_3_dark.png'
+import default_image from 'default_image.png'
+import default_user_image_2_male from 'default_user_image_2_male.png'
+import default_user_image_3_female from 'default_user_image_3_female.png'
+import default_user_image_3_male from 'default_user_image_3_male.png'
+import default_user_image_4_male from 'default_user_image_4_male.jpg'
+import default_user_image_5_male from 'default_user_image_5_male.jpg'
+import default_user_image_6_male from 'default_user_image_6_male.png'
+import default_user_image_7_woman from 'default_user_image_7_woman.png'
+import default_user_image_8_woman from 'default_user_image_8_woman.png'
+import default_user_image_9_male from 'default_user_image_9_male.png'
+import default_user_image_10_male from 'default_user_image_10_male.png'
 
 
 // for more icon visit https://iconduck.com/
@@ -91,6 +102,18 @@ export const assets = {
  default_image_icon_woman,
  default_image_icon_3,
  default_image_icon_3_dark,
+ default_image,
+ default_user_image_2_male,
+ default_user_image_3_female,
+ default_user_image_3_male,
+ default_user_image_4_male,
+ default_user_image_5_male,
+ default_user_image_6_male,
+ default_user_image_7_woman,
+ default_user_image_7_woman,
+ default_user_image_8_woman,
+ 
+ default_user_image_10_male,
 };
 
 export const infoList = [
