@@ -112,7 +112,7 @@ export const assets = {
  default_user_image_7_woman,
  default_user_image_7_woman,
  default_user_image_8_woman,
- 
+ default_user_image_9_male,
  default_user_image_10_male,
 };
 
