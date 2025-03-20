@@ -42,7 +42,7 @@ import default_image_icon_2 from './default_image_icon_2.png';
 import default_image_icon_woman from './default_image_icon_woman.png'
 import default_image_icon_3 from './default_image_icon_3.png'
 import default_image_icon_3_dark from './default_image_icon_3_dark.png'
-import default_image from 'default_image.png'
+// import default_image from 'default_image.png'
 import default_user_image_2_male from 'default_user_image_2_male.png'
 import default_user_image_3_female from 'default_user_image_3_female.png'
 import default_user_image_3_male from 'default_user_image_3_male.png'
@@ -102,7 +102,7 @@ export const assets = {
  default_image_icon_woman,
  default_image_icon_3,
  default_image_icon_3_dark,
- default_image,
+ // default_image,
  default_user_image_2_male,
  default_user_image_3_female,
  default_user_image_3_male,
