@@ -183,7 +183,7 @@ export const testimonials = [
   socialIconsThis: [socialIcons.facebook, socialIcons.github, socialIcons.instagram, socialIcons.internet],
  },
  {
-  icon: assets.default_image_icon_3,
+  icon: assets.default_user_image_6_male,
   iconDark: assets.default_image_icon_3_dark,
   name: 'Simon Chege',
   title: 'student',
