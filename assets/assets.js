@@ -115,6 +115,9 @@ export const assets = {
  default_user_image_8_woman,
  default_user_image_9_male,
  default_user_image_10_male,
+ instagram,
+ twiter_original
+
 };
 
 export const infoList = [
@@ -186,7 +189,7 @@ export const testimonials = [
  {
   icon: assets.default_user_image_2_male,
   iconDark: assets.default_image_icon_3_dark,
-   name: 'Simon Muiruri',
+  name: 'Simon Muiruri',
   title: 'student',
   description: 'Morris Mulandi is an exceptional developer. I had the pleasure of collaborating with him on a project, and his expertise and problem-solving skills were evident throughout. He consistently delivered high-quality work and was an asset to the team. I highly recommend him to anyone seeking a talented and reliable developer.',
   link: {
@@ -241,10 +244,10 @@ export const workData = [
   bgImage: '/quiz-game-project.png',
   link: 'https://111morris.github.io/quiz-game/',
  },
-  {
-    title: 'A digital clock',
-    description: 'A lightweight digital clock displaying the current time synced with the device\'s local time',
-    bgImage: '/digital-clock-project.png',
-    link: '',
-  },
+ {
+  title: 'A digital clock',
+  description: 'A lightweight digital clock displaying the current time synced with the device\'s local time',
+  bgImage: '/digital-clock-project.png',
+  link: '',
+ },
 ]
