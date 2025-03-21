@@ -216,12 +216,7 @@ export const testimonials = [
 
 
 export const workData = [
- {
-  title: 'A digital clock',
-  description: 'A lightweight digital clock displaying the current time synced with the device\'s local time',
-  bgImage: '/digital-clock-project.png',
-  link: '',
- },
+
  {
   title: 'Build a blog page',
   description: 'In progress. A blog website',
@@ -244,5 +239,11 @@ export const workData = [
   description: 'A quiz game app',
   bgImage: '/quiz-game-project.png',
   link: 'https://111morris.github.io/quiz-game/',
- }
+ },
+  {
+    title: 'A digital clock',
+    description: 'A lightweight digital clock displaying the current time synced with the device\'s local time',
+    bgImage: '/digital-clock-project.png',
+    link: '',
+  },
 ]
