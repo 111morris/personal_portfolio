@@ -53,7 +53,8 @@ import default_user_image_7_woman from './default_user_image_7_woman.png'
 import default_user_image_8_woman from './default_user_image_8_woman.png'
 import default_user_image_9_male from './default_user_image_9_male.png'
 import default_user_image_10_male from './default_user_image_10_male.png'
-
+import instagram from './instagram.svg';
+import twiter_original from './twitter-original.svg';
 
 // for more icon visit https://iconduck.com/
 
@@ -185,7 +186,7 @@ export const testimonials = [
  {
   icon: assets.default_user_image_2_male,
   iconDark: assets.default_image_icon_3_dark,
-  name: 'Simon Chege',
+   name: 'Simon Muiruri',
   title: 'student',
   description: 'Morris Mulandi is an exceptional developer. I had the pleasure of collaborating with him on a project, and his expertise and problem-solving skills were evident throughout. He consistently delivered high-quality work and was an asset to the team. I highly recommend him to anyone seeking a talented and reliable developer.',
   link: {
