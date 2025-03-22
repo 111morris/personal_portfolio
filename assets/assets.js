@@ -156,8 +156,6 @@ const socialIcons = {
    </svg>
   ), */
 
-
-
  warningLogo: (
   <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"></path>
@@ -195,7 +193,7 @@ export const testimonials = [
   description: 'Morris Mulandi is an exceptional developer. I had the pleasure of collaborating with him on a project, and his expertise and problem-solving skills were evident throughout. He consistently delivered high-quality work and was an asset to the team. I highly recommend him to anyone seeking a talented and reliable developer.',
   link: {
    facebook: 'https://facebook.com/',
-   github: 'https://github.com/',
+    github: 'https://github.com/NotoriousBigg',
    instagram: 'https://instagram.com/',
    internet: 'https://google.com/',
   },
