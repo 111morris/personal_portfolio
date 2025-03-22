@@ -34,7 +34,7 @@ const TestimonialCard = ({ testimonial, isDarkMode, setIsDarkMode }) => {
          className="text-gray-500 hover:text-gray-600" target="_blank"
          rel="noreferrer">
          <span>{socialIcon}</span>
-        </Link>
+         <Image src={assets.instagram} alt='' className='w-6' />        </Link>
        )
       })
      }
