@@ -193,7 +193,7 @@ export const testimonials = [
   description: 'Morris Mulandi is an exceptional developer. I had the pleasure of collaborating with him on a project, and his expertise and problem-solving skills were evident throughout. He consistently delivered high-quality work and was an asset to the team. I highly recommend him to anyone seeking a talented and reliable developer.',
   link: {
    facebook: 'https://facebook.com/',
-    github: 'https://github.com/NotoriousBigg',
+   github: 'https://github.com/NotoriousBigg',
    instagram: 'https://instagram.com/',
    internet: 'https://google.com/',
   },
@@ -219,34 +219,45 @@ export const testimonials = [
 
 
 export const workData = [
-
+ {
+  title: 'Build a TCP Chat Room',
+  description: 'A simple CLI TCP chart room build entirely with java',
+  bgImage: '/chat-room-java.png',
+  linkLive: 'https://github.com/111morris/chat_room_java',
+  linkGithub: 'https://github.com/111morris/chat_room_java',
+ },
  {
   title: 'Build a blog page',
   description: 'In progress. A blog website',
   bgImage: '/animation-blog-project.png',
-  link: 'https://111morris.github.io/animation/blog/blog.html',
+  linkLive: 'https://111morris.github.io/animation/blog/blog.html',
+  linkGithub: 'https://github.com/111morris/animation',
  },
  {
   title: 'Build a website for an organization',
   description: 'In progress. An organization website',
   bgImage: '/animation-website-project.png',
-  link: 'https://111morris.github.io/animation/',
+  linkLive: 'https://111morris.github.io/animation/',
+  linkGithub: 'https://github.com/111morris/animation',
  },
  {
   title: 'A number conversion system',
   description: 'converts different number systems',
   bgImage: '/number-systems-project.png',
-  link: 'https://111morris.github.io/number-system-updated/',
+  linkLive: 'https://111morris.github.io/number-system-updated/',
+  linkGithub: 'https://github.com/111morris/number-system-updated',
  }, {
   title: 'Build a quize game app',
   description: 'A quiz game app',
   bgImage: '/quiz-game-project.png',
-  link: 'https://111morris.github.io/quiz-game/',
+  linkLive: 'https://111morris.github.io/quiz-game/',
+  linkGithub: 'https://github.com/111morris/quiz-game',
  },
  {
   title: 'A digital clock',
   description: 'A lightweight digital clock displaying the current time synced with the device\'s local time',
   bgImage: '/digital-clock-project.png',
-  link: '',
+  linkLive: 'https://github.com/111morris/digital-clock',
+  linkGithub: 'https://github.com/111morris/digital-clock',
  },
 ]
