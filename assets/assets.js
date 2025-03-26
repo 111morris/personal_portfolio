@@ -136,7 +136,7 @@ export const serviceData = [
  { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
  { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
  { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-
+ { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
 ]
 
 const socialIcons = {
