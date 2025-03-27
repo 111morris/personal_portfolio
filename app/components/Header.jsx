@@ -35,7 +35,7 @@ const Header = () => {
     whileInView={{ opacity: 1 }}
     transition={{ duration: 0.6, delay: 0.7 }}
 
-    className='max-w-2xl mx-auto font-Ovo text-gray-600 dark:text-white/80' >I'm a fullstack developer, with 1yaer of experience in multiple programming languages</motion.p>
+    className='max-w-2xl mx-auto font-Ovo text-gray-600 dark:text-white/80' >I'm a fullstack developer, with 1 yaer of experience in multiple programming languages</motion.p>
 
    <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
     <motion.a
