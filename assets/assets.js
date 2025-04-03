@@ -220,6 +220,13 @@ export const testimonials = [
 
 export const workData = [
  {
+  title: 'Snake Game',
+  description: 'A simple Snake game implemented in Java using Swing for the graphical user interface',
+  bgImage: '/snake-game.png',
+  linkLive: 'https://github.com/111morris/snake-game-java',
+  linkGithub: 'https://github.com/111morris/snake-game-java',
+ },
+ {
   title: 'Build a TCP Chat Room',
   description: 'A simple CLI TCP chart room build entirely with java',
   bgImage: '/chat-room-java.png',
